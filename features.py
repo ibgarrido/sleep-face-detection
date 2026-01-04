@@ -30,14 +30,5 @@ def calculate_mouth_aspect_ratio(landmarks, index, img_w, img_h):
 
 
 
-
 if __name__ == "__main__":
     print("This module provides functions to calculate facial features such as EAR and MAR.")
-
-# snippet from tests/data_extraction.py
-    coords.append((x, y))
-    v1 = np.linalg.norm(np.array(coords[1]) - np.array(coords[5]))
-    v2 = np.linalg.norm(np.array(coords[2]) - np.array(coords[4]))
-    h = np.linalg.norm(np.array(coords[0]) - np.array(coords[3]))
-    ear = (v1 + v2) / (2.0 * h)
-    return ear
