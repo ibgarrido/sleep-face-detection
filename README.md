@@ -21,7 +21,7 @@ This system detect wheter a person is awake or sleep ba using threshold value ba
 # libraries
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 # Task file for face landmarker
 
